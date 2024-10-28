@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@/components/ui/ThemeProvider"
-import { ThemeToggle } from "@/components/ui/ThemeToggle"
+import { AuthPopover } from "@/components/ui/AuthPopover"
 import localFont from "next/font/local"
 import type { Metadata } from "next"
 import "./globals.css"
@@ -33,7 +33,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between p-4 dark:bg-inherit">
       <nav className="container mx-auto flex items-center justify-between">
         <p>MyApp</p>
-        <ThemeToggle />
+        <AuthPopover />
       </nav>
     </div>
   )
