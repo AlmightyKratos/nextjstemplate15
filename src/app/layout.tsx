@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/ui/ThemeProvider"
 import { AuthPopover } from "@/components/ui/AuthPopover"
+import { Toaster } from "@/components/ui/sonner"
 import localFont from "next/font/local"
 import type { Metadata } from "next"
 import "./globals.css"
@@ -58,6 +59,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
