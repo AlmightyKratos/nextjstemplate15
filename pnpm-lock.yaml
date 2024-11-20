@@ -70,8 +70,8 @@ importers:
         version: 1.0.7(tailwindcss@3.4.15)
     devDependencies:
       '@types/node':
-        specifier: 22.9.0
-        version: 22.9.0
+        specifier: 22.9.1
+        version: 22.9.1
       '@types/pg':
         specifier: 8.11.10
         version: 8.11.10
@@ -97,8 +97,8 @@ importers:
         specifier: 1.8.6
         version: 1.8.6(typescript@5.6.3)
       prettier-plugin-tailwindcss:
-        specifier: 0.6.8
-        version: 0.6.8(prettier-plugin-sort-imports@1.8.6(typescript@5.6.3))(prettier@3.3.3)
+        specifier: 0.6.9
+        version: 0.6.9(prettier-plugin-sort-imports@1.8.6(typescript@5.6.3))(prettier@3.3.3)
       tailwindcss:
         specifier: 3.4.15
         version: 3.4.15
@@ -1040,8 +1040,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.9.0':
-    resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==}
+  '@types/node@22.9.1':
+    resolution: {integrity: sha512-p8Yy/8sw1caA8CdRIQBG5tiLHmxtQKObCijiAa9Ez+d4+PRffM4054xbju0msf+cvhJpnFEeNjxmVT/0ipktrg==}
 
   '@types/pg@8.11.10':
     resolution: {integrity: sha512-LczQUW4dbOQzsH2RQ5qoeJ6qJPdrcM/DcMLoqWQkMLMsq83J5lAX3LXjdkWdpscFy67JSOWDnh7Ny/sPFykmkg==}
@@ -2326,8 +2326,8 @@ packages:
     peerDependencies:
       typescript: '>4.0.0'
 
-  prettier-plugin-tailwindcss@0.6.8:
-    resolution: {integrity: sha512-dGu3kdm7SXPkiW4nzeWKCl3uoImdd5CTZEJGxyypEPL37Wj0HT2pLqjrvSei1nTeuQfO4PUfjeW5cTUNRLZ4sA==}
+  prettier-plugin-tailwindcss@0.6.9:
+    resolution: {integrity: sha512-r0i3uhaZAXYP0At5xGfJH876W3HHGHDp+LCRUJrs57PBeQ6mYHMwr25KH8NPX44F2yGTvdnH7OqCshlQx183Eg==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -3482,13 +3482,13 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.9.0':
+  '@types/node@22.9.1':
     dependencies:
       undici-types: 6.19.8
 
   '@types/pg@8.11.10':
     dependencies:
-      '@types/node': 22.9.0
+      '@types/node': 22.9.1
       pg-protocol: 1.7.0
       pg-types: 4.0.2
 
@@ -4877,7 +4877,7 @@ snapshots:
       prettier: 3.3.3
       typescript: 5.6.3
 
-  prettier-plugin-tailwindcss@0.6.8(prettier-plugin-sort-imports@1.8.6(typescript@5.6.3))(prettier@3.3.3):
+  prettier-plugin-tailwindcss@0.6.9(prettier-plugin-sort-imports@1.8.6(typescript@5.6.3))(prettier@3.3.3):
     dependencies:
       prettier: 3.3.3
     optionalDependencies:
