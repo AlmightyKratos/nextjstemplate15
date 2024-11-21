@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "npx prettier . --write",
+    "studio": "drizzle-kit studio",
+    "migrate": "npx drizzle-kit migrate",
     "makemigrations": "npx drizzle-kit generate"
   },
   "dependencies": {
