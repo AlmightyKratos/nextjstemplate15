@@ -3,8 +3,8 @@ import { AuthPopover } from "@/components/ui/AuthPopover"
 import { NuqsAdapter } from "nuqs/adapters/next/app"
 import { Toaster } from "@/components/ui/sonner"
 import localFont from "next/font/local"
-import Providers from "./providers"
 import type { Metadata } from "next"
+import Providers from "./providers"
 import "./globals.css"
 
 const geistSans = localFont({
