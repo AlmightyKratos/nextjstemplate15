@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 const Footer = () => {
   return (
     <footer className="bg-gray-800 p-4 text-center text-white">
-      <p>&copy; 2024 My App. All rights reserved.</p>
+      <p>&copy; 2025 My App. All rights reserved.</p>
     </footer>
   )
 }

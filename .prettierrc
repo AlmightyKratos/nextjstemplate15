@@ -1,6 +1,0 @@
-{
-  "plugins": ["prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
-  "semi": false,
-  "trailingComma": "all",
-  "arrowParens": "always"
-}

@@ -12,6 +12,15 @@
     "migrate": "npx drizzle-kit migrate",
     "makemigrations": "npx drizzle-kit generate"
   },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-sort-imports",
+      "prettier-plugin-tailwindcss"
+    ],
+    "semi": false,
+    "trailingComma": "all",
+    "arrowParens": "always"
+  },
   "dependencies": {
     "@auth/drizzle-adapter": "1.7.4",
     "@radix-ui/react-dropdown-menu": "2.1.6",
