@@ -3,6 +3,7 @@ import { AuthPopover } from "@/components/ui/AuthPopover"
 import { NuqsAdapter } from "nuqs/adapters/next/app"
 import { Toaster } from "@/components/ui/sonner"
 import localFont from "next/font/local"
+import Providers from "./providers"
 import type { Metadata } from "next"
 import "./globals.css"
 
@@ -51,19 +52,21 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} grid min-h-screen grid-rows-[auto_1fr_auto] antialiased`}
       >
-        <NuqsAdapter>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <Navbar />
-            {children}
-            <Footer />
-            <Toaster />
-          </ThemeProvider>
-        </NuqsAdapter>
+        <Providers>
+          <NuqsAdapter>
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="system"
+              enableSystem
+              disableTransitionOnChange
+            >
+              <Navbar />
+              {children}
+              <Footer />
+              <Toaster />
+            </ThemeProvider>
+          </NuqsAdapter>
+        </Providers>
       </body>
     </html>
   )
